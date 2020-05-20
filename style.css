@@ -1,0 +1,202 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+font-family:Tahoma;
+}
+nav{
+    background-color:rgba(128, 128, 128,0.7);
+    height:20vh;
+    width:100%;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-transform:uppercase;
+   //position:fixed;
+    
+}
+
+.name{
+  width:40%;
+  text-align:center;
+  
+
+}
+.name a{
+    text-decoration:none;
+    color:white;
+}
+.name h1{
+    margin-bottom:14px;
+}
+
+nav .menu{
+    width:40%;
+    text-align:center;
+    display:flex;
+     justify-content:space-around;
+
+}
+nav .menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+section{
+    height:60vh;
+    width:100%;
+    background-color:#79C2A6;
+    position:relative;
+    
+}
+
+section .img{
+    width:200px;
+    
+    height:200px;
+    border:2px solid black;
+    border-radius:360px;
+   justify-items:center;
+    margin-bottom:10px;
+    position:absolute;
+    top:10px;
+    left:42%;
+    background:url("./two.jpg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+
+  
+    
+}
+section .imgname{
+    margin-top:10px;
+    position:absolute;
+    top:230px;
+    left:43%;
+    text-align:center;
+}
+section .bio h3{
+    top:299px;
+    left:42%;
+    position:absolute;
+    font-size:20px;
+    margin-top:10px;
+
+}
+section .bio h3 {
+    margin-top:4px;
+        border-bottom: 3px solid white;
+        border-radius:4px;
+    }
+.details{
+  margin-bottom:20px;
+   
+   
+}
+.git{
+    margin-top:20px;
+    text-align:center;
+    width:100%;
+    background-color:white;
+   
+}
+.git a{
+    
+    margin-top:12px;
+    text-decoration:none;
+    color:black;
+    font-size:23px;
+}
+.git p{
+    font-weight:bold;
+    line-height:2em;
+}
+span,.active{
+    color:orangered;
+    font-weight:bold;
+}
+.leetcode{
+   
+    text-align: center;
+    width: 99%;
+    background-color: white;
+    border-radius: 50px;
+}
+.leetcode a{
+    line-height:2em;
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+ .leetcode p {
+        font-weight: bold;
+        line-height: 2em;
+        text-align: center;
+    }
+ .education {
+    // margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+}
+ .education h2{
+     margin-left:250px;
+ }
+.education p{
+    margin-top:20px;
+        font-weight: bold;
+        line-height: 2em;
+        text-align: center;
+        margin-left:244px;
+
+}
+.skills{
+    background-color:white;
+    text-align:center;
+    margin-top:10px;
+}
+.a{
+    margin-top:50px;
+}
+.a ul{
+    margin-top:4px;
+    line-height:2em;
+    font-weight:bold;
+}
+.b{
+    margin-top:30px;
+}
+.b ul {
+        margin-top: 4px;
+        line-height: 2em;
+        font-weight: bold;
+    }
+footer{
+    width:100%;
+    height:10vh;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    
+}
+.location,.contact{
+    display:flex;
+    justify-content:space-around;
+    padding-top:20px;
+}
+.projects{
+    text-align:center;
+    background-color:white;
+}
+.projects h2{
+margin-bottom:8px;
+}
+.projects h4{
+    margin-top:4px;
+}
